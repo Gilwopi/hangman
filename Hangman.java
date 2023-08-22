@@ -23,7 +23,6 @@ class Hangman {
             }
             while(game) {
                 Game.printGallows(tries);
-                System.out.println(word);
                 String lines = "";
                 int numCorrectLetters = 0;
                 for (int i = 0; i < word.length(); i++){
@@ -61,6 +60,7 @@ class Hangman {
                     game = false;
                 }
             }
+            System.out.println("The word was: " + word);
             //Ask for repeat play
             System.out.println("Play again? Y / N");
             String response = input.nextLine();

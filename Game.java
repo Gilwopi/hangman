@@ -18,7 +18,7 @@ public class Game {
     }
 
     public static void printGallows(int tries){
-        System.out.println("    _____  ");
+        System.out.println("     ____  ");
         System.out.println("    |    | ");
         if (tries < 6) {
             System.out.println("    O    |");
